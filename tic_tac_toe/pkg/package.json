@@ -1,0 +1,14 @@
+{
+  "name": "tic_tac_toe",
+  "version": "0.1.0",
+  "files": [
+    "tic_tac_toe_bg.wasm",
+    "tic_tac_toe.js",
+    "tic_tac_toe.d.ts"
+  ],
+  "module": "tic_tac_toe.js",
+  "types": "tic_tac_toe.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
